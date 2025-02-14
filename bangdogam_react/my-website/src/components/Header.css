@@ -1,0 +1,47 @@
+header {
+  padding: 30px 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 225px;
+  height: 93px;
+}
+
+nav > div {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+.searchInput {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.searchInput:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

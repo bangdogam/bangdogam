@@ -1,0 +1,22 @@
+footer {
+  padding: 30px 65px;
+  background-color: #f8f9fa; /* 연한 배경색 */
+  display: flex; /* 플렉스 레이아웃 */
+  justify-content: center; /* 링크를 중앙에 정렬 */
+  gap: 20px; /* 링크 간 간격 */
+  border-top: 1px solid #ddd; /* 상단 경계선 */
+}
+
+/* Footer 링크 스타일 */
+footer a {
+  text-decoration: none; /* 밑줄 제거 */
+  color: #333; /* 텍스트 색상 */
+  font-size: 14px; /* 글꼴 크기 */
+  padding: 5px 10px; /* 텍스트 내부 여백 */
+  transition: color 0.2s ease-in-out;
+}
+
+/* 마우스 오버 효과 */
+footer a:hover {
+  color: #007bff; /* 마우스 오버 시 색상 변경 */
+}
