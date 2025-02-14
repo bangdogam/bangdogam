@@ -1,0 +1,452 @@
+[
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 1,
+        "fields": {
+            "branch": "제로월드 홍대",
+            "title": "[홍대] 층간소음",
+            "image_url": "https://zerohongdae.com/storage/m09Dw0A46eZbIlxCKOgXcp5b02QB6UmfrSTzAtbi.jpg",
+            "genre": "장르: 공포",
+            "time": "테마시간: 65",
+            "difficulty": "25",
+            "horror": "3",
+            "description": "밤 10시. \n \n편안한 보금자리가 지옥으로 바뀌는 시간. \n \n \n* NOX와 층간소음은 스토리를 공유합니다. \n하지만 각각의 테마를 따로 플레이하셔도 무방합니다.",
+            "booking_link": "https://zerohongdae.com/reservation/60"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 2,
+        "fields": {
+            "branch": "제로월드 홍대",
+            "title": "[홍대] NOX",
+            "image_url": "https://zerohongdae.com/storage/lwGpXRwNnpUlFVWKcZQzfK8wMeC6gQ4gjYnTCndw.png",
+            "genre": "장르: 잠입, 미스터리",
+            "time": "테마시간: 70분",
+            "difficulty": "35",
+            "horror": "1",
+            "description": "실수없이, 완벽하게. \n \n* NOX는 밀어내기 방식의 테마입니다.  \n - 입장시간보다 15분이상 늦으실 경우 입장이 불가합니다. \n* NOX와 층간소음은 스토리를 공유합니다. \n하지만 각각의 테마를 따로 플레이하셔도 무방합니다.",
+            "booking_link": "https://zerohongdae.com/reservation/58"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 3,
+        "fields": {
+            "branch": "제로월드 홍대",
+            "title": "[홍대] 깜방탈출 : WAY OUT",
+            "image_url": "https://zerohongdae.com/storage/04dAAb57MJKD0poJ4VnlsJIL9EDWrYMzq6hTCRYi.jpg",
+            "genre": "장르: 잠입",
+            "time": "테마시간: 75분",
+            "difficulty": "4",
+            "horror": "1",
+            "description": "DAY-1. 작전일을 하루 앞둔 나는 친구들과 함께 그간 준비한 계획을 마무리하려 한다.",
+            "booking_link": "https://zerohongdae.com/reservation/56"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 4,
+        "fields": {
+            "branch": "제로월드 홍대",
+            "title": "[홍대] 사랑...하는...감?",
+            "image_url": "https://zerohongdae.com/storage/NZSXGtMhy5Rod5fwRFqpP9edW6ggmNvFSAytmlDP.jpg",
+            "genre": "장르: 병맛",
+            "time": "테마시간: 60분",
+            "difficulty": "35",
+            "horror": null,
+            "description": "그는.. 그녀를.. 사랑하는.. 감?",
+            "booking_link": "https://zerohongdae.com/reservation/54"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 5,
+        "fields": {
+            "branch": "제로월드 홍대",
+            "title": "[홍대] ALIVE",
+            "image_url": "https://zerohongdae.com/storage/9ibzZ5mUK63r5DvwjODh9e64heWXtFG8rxFili3P.jpg",
+            "genre": "장르: 스릴러, 생존",
+            "time": "테마시간: 80분",
+            "difficulty": "3",
+            "horror": null,
+            "description": "Humankind must put an end to war, or war will put an end to humankind \n(인류가 전쟁을 끝내지 않으면, 전쟁이 인류를 끝낼 것이다) \n \n※ 최소 인원 3인 / 최대 인원 4인 \n※ 활동성이 매우 높습니다. 편한 복장 추천드립니다.",
+            "booking_link": "https://zerohongdae.com/reservation/51"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 6,
+        "fields": {
+            "branch": "지구별방탈출 홍대어드벤처",
+            "title": "아몬 : 새벽을 여는 소년",
+            "image_url": "https://xn--2e0b040a4xj.com/storage/theme/2024_08/12/lVhIuQZQ68PyVZ2T5noQXdj26rtXVYGpH0OUtNk2.jpg",
+            "genre": "어드벤처",
+            "time": "70",
+            "difficulty": "3",
+            "horror": "1",
+            "description": "전 아몬이에요! 헬리오폴리스에 살고 10살이죠! 좋아하는 건 할머니가 해주는 완두콩 수프예요!",
+            "booking_link": "https://xn--2e0b040a4xj.com/reservation?branch=2&theme=18#list"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 7,
+        "fields": {
+            "branch": "지구별방탈출 홍대어드벤처",
+            "title": "퀘스트 : 여정의 시작",
+            "image_url": "https://xn--2e0b040a4xj.com/storage/theme/2024_08/12/WwP3c6jOOOXBRBrwUs1JXepMo4WThUGlCfbHqR5C.jpg",
+            "genre": "판타지",
+            "time": "50분",
+            "difficulty": "3",
+            "horror": null,
+            "description": "퀘스트를 수락하시겠습니까? * 지구별 어드벤처 입문 테마로 추천드립니다.",
+            "booking_link": "https://xn--2e0b040a4xj.com/reservation?branch=2&theme=17#list"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 8,
+        "fields": {
+            "branch": "지구별방탈출 홍대어드벤처",
+            "title": "지난날을 잊었다",
+            "image_url": "https://xn--2e0b040a4xj.com/storage/theme/2024_04/01/Zf0pAzWuiBTsYHkh1TnkC7D9yyILgvNuY3HZG4Li.jpg",
+            "genre": "감성",
+            "time": "65분",
+            "difficulty": "3.5",
+            "horror": null,
+            "description": "남자는 하염없이 걷고 또 걸었다. 긴 걸음 끝에 작은 사진관을 마주했다. 문을 열고 들어가려는 찰나, 연분홍빛 벚꽃잎이 콧등을 스쳤다. 아, 봄이었구나.",
+            "booking_link": "https://xn--2e0b040a4xj.com/reservation?branch=2&theme=9#list"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 9,
+        "fields": {
+            "branch": "지구별방탈출 홍대어드벤처",
+            "title": "미스터리",
+            "image_url": "https://xn--2e0b040a4xj.com/storage/theme/2024_04/01/AsCzKuMAO80qWVWpYcFOW0HF395mOMnuOH6LSntM.jpg",
+            "genre": "미스터리",
+            "time": "85분",
+            "difficulty": "4.5",
+            "horror": "2",
+            "description": "오늘 하루, 당신께 잊지 못할 추억을 선물해 드리겠습니다. - 미스터리 트래블",
+            "booking_link": "https://xn--2e0b040a4xj.com/reservation?branch=2&theme=8#list"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 10,
+        "fields": {
+            "branch": "지구별방탈출 홍대라스트시티",
+            "title": "라스트코어",
+            "image_url": "https://xn--2e0b040a4xj.com/storage/theme/2024_08/12/sMcnvmowtWKavYYLrJsyXlQqD6iRBr9aIcZyUUYH.jpg",
+            "genre": "SF",
+            "time": "90분",
+            "difficulty": "4",
+            "horror": "1",
+            "description": "런던이 그들에게 정복당한 이후로 삶은 더 팍팍해졌다",
+            "booking_link": "https://xn--2e0b040a4xj.com/reservation?branch=4&theme=19#list"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 11,
+        "fields": {
+            "branch": "지구별방탈출 홍대라스트시티",
+            "title": "스텔라",
+            "image_url": "https://xn--2e0b040a4xj.com/storage/theme/2024_08/12/jreJkPLlaLdQKEDFba84VXeIikQNHsQDYwUy0Ug8.jpg",
+            "genre": "드라마",
+            "time": "70분",
+            "difficulty": "3",
+            "horror": "없음",
+            "description": "가장 빛나는 별, 스텔라",
+            "booking_link": "https://xn--2e0b040a4xj.com/reservation?branch=4&theme=16#list"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 12,
+        "fields": {
+            "branch": "지구별방탈출 홍대라스트시티",
+            "title": "纹身(문신)",
+            "image_url": "https://xn--2e0b040a4xj.com/storage/theme/2024_08/12/AxjIbWiNl8qQURm4R7rGYJj9ZhawGeq4BxTZrgNe.jpg",
+            "genre": "스릴러",
+            "time": "67분",
+            "difficulty": "3",
+            "horror": "3",
+            "description": "홍콩, 나의 첫 해외여행.",
+            "booking_link": "https://xn--2e0b040a4xj.com/reservation?branch=4&theme=15#list"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 13,
+        "fields": {
+            "branch": "지구별방탈출 홍대라스트시티",
+            "title": "멸종위기종 탐사대",
+            "image_url": "https://xn--2e0b040a4xj.com/storage/theme/2024_08/12/wwRUAFB6wzTNHW1iUEceA8wXQvgjK2KC6jClLKfk.jpg",
+            "genre": "어드벤처/미션",
+            "time": "65분",
+            "difficulty": "4",
+            "horror": null,
+            "description": "[모집공고]",
+            "booking_link": "https://xn--2e0b040a4xj.com/reservation?branch=4&theme=14#list"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 14,
+        "fields": {
+            "branch": "지구별방탈출 홍대라스트시티",
+            "title": "스위티",
+            "image_url": "https://xn--2e0b040a4xj.com/storage/theme/2024_08/12/ICHNrAp5AMEU85LpG30oGIzMPUUGT2FafHFqvQ1W.jpg",
+            "genre": "?",
+            "time": "60분",
+            "difficulty": "3",
+            "horror": null,
+            "description": "띵동! 주문 성공했습니다!",
+            "booking_link": "https://xn--2e0b040a4xj.com/reservation?branch=4&theme=13#list"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 15,
+        "fields": {
+            "branch": "지구별방탈출 홍대라스트시티",
+            "title": "섀도우",
+            "image_url": "https://xn--2e0b040a4xj.com/storage/theme/2024_08/12/qCPKAN30TpPvsCU68SUOtj2QynGOczf08qeI633O.jpg",
+            "genre": "범죄 /미스터리",
+            "time": "75",
+            "difficulty": "3",
+            "horror": null,
+            "description": "In darkness, the shadows come alive.",
+            "booking_link": "https://xn--2e0b040a4xj.com/reservation?branch=4&theme=12#list"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 16,
+        "fields": {
+            "branch": "솔버 1호점 건대",
+            "title": "LUCID DREAM (자각몽)",
+            "image_url": "http://solver-gd.com/upload_file/room/1234.jpg",
+            "genre": "공포/추리",
+            "time": "60분",
+            "difficulty": "★★★☆☆",
+            "horror": "●●●●●",
+            "description": "현실과 구분이 되지 않는 꿈. \n그 안에서 당신은 처음보는 소녀의 부름에 \n낯선 방에 이르게 된다.\n자신을 J라 소개하는 그녀\nJ는 자신의 이야기를 들어달라 해놓고는 \n홀연히 사려져버린다.\n\n\"J...? 4년 전 연쇄실종사건의 마지막 실종자...J?\n\n단순한 꿈이 아님을 직감적으로 눈치챈 당신은 \n천천히 방을 둘러보게 되는데....\"",
+            "booking_link": "http://solver-gd.com/sub/03_1.html?D_ROOM=A&JIJEM=S1"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 17,
+        "fields": {
+            "branch": "솔버 1호점 건대",
+            "title": "COLD CASE (미제 사건)",
+            "image_url": "http://solver-gd.com/upload_file/room/12345.jpg",
+            "genre": "미스터리/스릴러",
+            "time": "60분",
+            "difficulty": "★★★★★",
+            "horror": "●○○○○",
+            "description": "전대미문의 연쇄실종 사건 그리고 \n유력용의자로 누명을 쓰게 된 K\n\n세상은 K를 범인이라 하지만,\n당사자 K는 아직 풀리지 않은 미제사건이라 말한다.\n\n꿈 속에서 알게 된 지하수로로\n다시 돌아가게 된 당신은,\n그 곳에서 과거의 흔적을 되짚어 보게 되는데...\n\n‘도대체 여기에 뭐가 있다는 거지...?’\"",
+            "booking_link": "http://solver-gd.com/sub/03_1.html?D_ROOM=B&JIJEM=S1"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 18,
+        "fields": {
+            "branch": "솔버 1호점 건대",
+            "title": "THE CAGE (케이지)",
+            "image_url": "http://solver-gd.com/upload_file/room/12342134.jpg",
+            "genre": "추리/스릴러",
+            "time": "60분",
+            "difficulty": "★★★★☆",
+            "horror": "●○○○○",
+            "description": "그의 흔적을 따라 도착한 이 곳.\n처음 와보는 곳 이지만, 어딘가 낯설지 않다...\n\n이 곳에서 \n지독하게 K를 괴롭혀왔던\n연쇄실종사건의 진상을 확인하고 \n이야기의 마침표를 찍어야한다.\n\"",
+            "booking_link": "http://solver-gd.com/sub/03_1.html?D_ROOM=C&JIJEM=S1"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 19,
+        "fields": {
+            "branch": "솔버 2호점 건대",
+            "title": "Dear Marsy(마르시)",
+            "image_url": "http://solver-gd.com/upload_file/room/12344(17).jpg",
+            "genre": "미스테리",
+            "time": "75분테마",
+            "difficulty": "★★★★☆",
+            "horror": "○○○○○",
+            "description": "밤하늘, 나를 향해 가장 푸르게 빛나는 저 별...\n\n나는 그에게 '에덴' 이라는 이름을 붙여주었다.\"",
+            "booking_link": "http://solver-gd.com/sub/03_1.html?D_ROOM=A&JIJEM=S2"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 20,
+        "fields": {
+            "branch": "솔버 2호점 건대",
+            "title": "이층 복도 끝 화장실",
+            "image_url": "http://solver-gd.com/upload_file/room/이복화.jpg",
+            "genre": "공포/스릴러",
+            "time": "75분 테마",
+            "difficulty": "★★★★☆",
+            "horror": "●●●○○",
+            "description": "잠에서 깨어난다.\n멍하니 아무 생각도 하지않고 있는 시간이 많아졌다.\n내가 간신히 나 스스로 기억해낼 수 있는 것은.\n\n고작 내 이름 세글자 '한경준' 뿐...\n\n몸을 일으키자 탁자에 붙어있는 쪽지 하나와 편지 한 통이 눈에 들어온다..................\n\n(쪽지와 편지 내용은 매장에서 확인 가능합니다.)\n\n\"",
+            "booking_link": "http://solver-gd.com/sub/03_1.html?D_ROOM=B&JIJEM=S2"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 21,
+        "fields": {
+            "branch": "솔버 2호점 건대",
+            "title": "무채색 인간",
+            "image_url": "http://solver-gd.com/upload_file/room/무채색 인간.jpg",
+            "genre": "드라마",
+            "time": "70분테마",
+            "difficulty": "★★★★★",
+            "horror": "○○○○○",
+            "description": "가까스로 모교를 빠져나오는 한경준. 조금씩 떠오르는 먼 과거의 기억들로 머리가 복잡해져 오던 중,\n정문 앞에 수상하게 떨어져있는 일기장 하나를 발견하게 된다.\"",
+            "booking_link": "http://solver-gd.com/sub/03_1.html?D_ROOM=C&JIJEM=S2"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 22,
+        "fields": {
+            "branch": "제로월드 강남",
+            "title": "[강남] 헐!",
+            "image_url": "https://www.zerogangnam.com/storage/vvKmmbiIvO6wfAOF7NgkSLbf8Rmzn9LqYgiHkqMH.jpg",
+            "genre": "코믹",
+            "time": "90분",
+            "difficulty": "4",
+            "horror": "1",
+            "description": "뭐지? 끼이이익----! \n처음 듣는 날카로운 소리와 함께 \n내 몸은 하늘로 붕 뜬다...",
+            "booking_link": "https://www.zerogangnam.com/reservation/45"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 23,
+        "fields": {
+            "branch": "제로월드 강남",
+            "title": "[강남] 포레스트 (FORREST)",
+            "image_url": "https://www.zerogangnam.com/storage/AVISPw8N2JfMThKvnk3VJzeY9qywIaYd8pTy46Xx.jpg",
+            "genre": "공포/도전",
+            "time": "75분",
+            "difficulty": "4",
+            "horror": null,
+            "description": "공포지수: 4.5 \n \n \n'Show dawn' 초대장이 도착했습니다. \n \n<총 상금 50억의 호러퀴즈쇼 'Show dawn'> \n당신은 이겨낼 수 있습니까?",
+            "booking_link": "https://www.zerogangnam.com/reservation/43"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 24,
+        "fields": {
+            "branch": "제로월드 강남",
+            "title": "[강남] DONE",
+            "image_url": "https://www.zerogangnam.com/storage/h77RkOOKRX3XTVttuI7KPApcV2sSlFORaTTFlm60.jpg",
+            "genre": "범죄, 잠입, 액션",
+            "time": "75분",
+            "difficulty": null,
+            "horror": null,
+            "description": "난이도: ★★★☆☆+a \n \n우리는 런던 뒷골목을 누비는 Alex 형제들.  \n우연히 찰리 전파사에 굉장히 큰 돈이 숨겨져 있다는  \n소문을 들었다. \n오늘은 전파사의 휴무일.  \n털자!",
+            "booking_link": "https://www.zerogangnam.com/reservation/41"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 25,
+        "fields": {
+            "branch": "제로월드 강남",
+            "title": "[강남] 제로호텔L",
+            "image_url": "https://www.zerogangnam.com/storage/X51oi3HLesowsNm1mxmFk6nQeIwZXa4e5QC23Fe1.jpg",
+            "genre": "스릴러",
+            "time": "60분",
+            "difficulty": "4",
+            "horror": null,
+            "description": "나는 국민여배우 톱스타 홍설아와 비밀 연애중이다. \n \n \n \n[제로호텔 김포], [제로호텔L 강남]  \n두 지점 중 한 지점 체험한 경우  \n다른 지점 제로 호텔 테마 50%할인  \n※회원카드/신분증 지참시 가능         ※현금 할인 외 다른 할인과 중복 할인 불가",
+            "booking_link": "https://www.zerogangnam.com/reservation/37"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 26,
+        "fields": {
+            "branch": "제로월드 강남",
+            "title": "[강남] 아이엠",
+            "image_url": "https://www.zerogangnam.com/storage/XrztwnZ9ApcLWcAHwcSoHbFqa4cl6EJH1Bl2jreF.jpg",
+            "genre": "추리, 스릴러",
+            "time": "75분",
+            "difficulty": "4",
+            "horror": "1",
+            "description": "내 이름은 에론 머스크. 어릴 때부터 내꿈은 슈퍼 히어로였다. \n \n용감하게 범죄에 맞서 위험한 사람들을 구하고, \n가정을 꾸려 내 가족의 행복을 지키는 히어로! \n그 꿈을 키워 지금의 나는 모두가 인정하는 경찰이 되었고, \n현재는 연쇄 살인사건의 범인 L을 수사 중에 있다. 살인마 L ...",
+            "booking_link": "https://www.zerogangnam.com/reservation/31"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 27,
+        "fields": {
+            "branch": "제로월드 강남",
+            "title": "[강남] 어느겨울밤2",
+            "image_url": "https://www.zerogangnam.com/storage/zrRSFfvNxvemwSoeAVnIGe9UCUQ5sZwYLcI9Dbki.jpg",
+            "genre": "판타지",
+            "time": "60분",
+            "difficulty": "3",
+            "horror": null,
+            "description": "나는 열 살 클라라에요. \n \n크리스마스가 다가오는 지금 나는 매일 밤 왕자님 인형을 \n갖게 해 달라고 기도하면서 잠들어요. \n그런데, 벌써 다섯 밤 째 자꾸 무서운 꿈을 꿔요.. \n막 덩치 큰 쥐들이 찍찍거리면서 방을 돌아다니고 \n만지지도 않은 장난감들이 마음대로 삐그덕 거리고… \n오늘도 그 꿈을 꾸면 어떡하죠…?",
+            "booking_link": "https://www.zerogangnam.com/reservation/29"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 28,
+        "fields": {
+            "branch": "제로월드 강남",
+            "title": "[강남] 콜러",
+            "image_url": "https://www.zerogangnam.com/storage/jsU0eVFchFzKRGTR7k63ia6eVUFviJ2mdFmEt932.jpg",
+            "genre": "공포",
+            "time": "75분",
+            "difficulty": "5",
+            "horror": "5",
+            "description": "나는 기억을 잃었다.",
+            "booking_link": "https://www.zerogangnam.com/reservation/27"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 29,
+        "fields": {
+            "branch": "제로월드 강남",
+            "title": "[강남] 나비효과",
+            "image_url": "https://www.zerogangnam.com/storage/53YBaDeUELhwD5rla4FGnJxlARAXRbS3WllubGm3.jpg",
+            "genre": "SF/드라마",
+            "time": "75분",
+            "difficulty": "3",
+            "horror": null,
+            "description": "다시 그 때로 돌아갈 수만 있다면 얼마나 좋을까..?",
+            "booking_link": "https://www.zerogangnam.com/reservation/25"
+        }
+    },
+    {
+        "model": "information.roomescapeinfo",
+        "pk": 30,
+        "fields": {
+            "branch": "제로월드 강남",
+            "title": "[강남] 링",
+            "image_url": "https://www.zerogangnam.com/storage/aM6F3lOsKUwHA5NCkusfmH2ilNupcgskh34SiNuf.jpg",
+            "genre": "공포",
+            "time": "75분",
+            "difficulty": "3",
+            "horror": "5",
+            "description": "내 조카 유키는 자살할 아이가 아닌데... \n \n \n \n \n \n \n※ 링은 3인 이상 가능한 테마입니다.",
+            "booking_link": "https://www.zerogangnam.com/reservation/23"
+        }
+    }
+]

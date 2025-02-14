@@ -5,18 +5,25 @@ function RoomEscapes() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // API 호출
-    fetch('http://127.0.0.1:8000/information/api/roomescapes/')
-      .then(response => response.json())
-      .then(data => {
-        setRoomEscapes(data.results || []); // 데이터가 없으면 빈 배열로 설정
-        setLoading(false); // 로딩 완료
-      })
-      .catch(error => {
-        console.error('Error fetching data:', error);
-        setLoading(false); // 로딩 실패 처리
-      });
-  }, []);
+  console.log("Fetching data from API...");
+
+  fetch('http://127.0.0.1:8000/information/api/roomescapes/', { mode: "cors" })
+    .then(response => response.json())
+    .then(data => {
+      console.log("API Response:", data);  // API 응답 확인
+      setRoomEscapes(data.results || []);  // 상태 업데이트
+    })
+    .catch(error => {
+      console.error('Error fetching data:', error);
+    });
+}, []);
+
+// 🔥 roomEscapes 상태가 변경될 때마다 로그 출력
+useEffect(() => {
+  console.log("Updated roomEscapes:", roomEscapes);
+}, [roomEscapes]);
+
+
 
   if (loading) {
     return <p>Loading...</p>;
