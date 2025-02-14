@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import MainIcon from '../assets/MainIcon.png';
 import './Header.css';
 
 function Header() {
+    const [loggedIn, setLoggedIn] = useState(false);
+
+    // 로그인 여부 확인
+    useEffect(() => {
+        const user = JSON.parse(localStorage.getItem('loggedInUser'));
+        setLoggedIn(!!user); // user가 존재하면 true, 없으면 false
+    }, []);
+
     return (
         <header>
             <nav>
@@ -19,7 +27,11 @@ function Header() {
                         placeholder="검색"
                         className="searchInput"
                     />
-                    <Link to="/my">MY</Link>
+                    {loggedIn ? (
+                        <Link to="/mypage">MY</Link> // 로그인 상태일 때
+                    ) : (
+                        <Link to="/login">로그인</Link> // 로그인 안 했을 때
+                    )}
                 </div>
             </nav>
         </header>
