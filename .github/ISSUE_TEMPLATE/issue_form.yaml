@@ -24,15 +24,6 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    id: checklist
-    attributes:
-      label: "✅ 체크리스트"
-      options:
-        - label: "Assignees / Labels / Milestone 선택"
-        - label: "이슈가 적절한지 확인"
-        - label: "관련 문서나 코드 리뷰 필요 여부 확인"
-
   - type: textarea
     id: custom-checklist
     attributes:
