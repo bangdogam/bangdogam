@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     "rest_framework",  # Django REST Framework 추가
     "corsheaders",  # CORS 추가
     "accounts",  # 회원가입, 로그인 기능
+    "ranking",   # ✅ 랭킹 API 앱 추가
+    "theme",     # ✅ 테마 API 앱 추가
 ]
 
 MIDDLEWARE = [
@@ -82,7 +84,11 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
-    }
+    },
+    "bang_db": {  # ✅ 방탈출 데이터 저장소
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "bang.db",
+    },
 }
 
 
