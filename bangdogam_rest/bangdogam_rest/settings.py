@@ -10,6 +10,21 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
+import os
+from dotenv import load_dotenv
+
+# BASE_DIR 설정
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# .env 파일 로드
+dotenv_path = os.path.join(BASE_DIR, ".env")
+load_dotenv(dotenv_path)
+
+# 환경 변수 가져오기
+KAKAO_REST_API_KEY = os.getenv("KAKAO_REST_API_KEY")
+KAKAO_REDIRECT_URI = os.getenv("KAKAO_REDIRECT_URI")
+
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -38,9 +53,10 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    'corsheaders',
     'information',
     'naver_blog_search',
-    'corsheaders',
+    'kakao_login',
 ]
 
 MIDDLEWARE = [
