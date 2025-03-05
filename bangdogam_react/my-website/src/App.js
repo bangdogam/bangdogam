@@ -5,6 +5,7 @@ import RoomEscapes from './components/RoomEscapes';
 import BlogSearch from './components/BlogSearch';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Detail from "./components/Detail";
 function App() {
   return (
     <Router>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/map" element={<MapComponent />} />
           <Route path="/rooms" element={<RoomEscapes />} />
           <Route path="/blog-search" element={<BlogSearch />} />
+          <Route path="/detail" element={<Detail />} />
         </Routes>
         <Footer>
         </Footer>
