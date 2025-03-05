@@ -7,5 +7,6 @@ urlpatterns = [
     path("ranking/", include("ranking.urls")),  # ✅ 랭킹 API 추가
     path("theme/", include("theme.urls")),  # ✅ 테마 API 추가
     path('information/', include('information.urls')),  # API 라우팅 추가
+    path('api/', include('kakao_login.urls')),
 ]
 
