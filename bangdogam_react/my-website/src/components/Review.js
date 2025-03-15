@@ -3,6 +3,7 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { CiCalendar } from "react-icons/ci";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
+import { IoIosSearch } from "react-icons/io";
 
 
 function Review() {
@@ -13,6 +14,21 @@ function Review() {
     const [selectedKeywords, setSelectedKeywords] = useState([]); // 선택된 키워드 관리
     const [selectedOutcome, setSelectedOutcome] = useState(null); // 탈출 여부 상태
     
+    const [searchQuery, setSearchQuery] = useState(""); // 검색어 상태
+    const [selectedTheme, setSelectedTheme] = useState(""); // 선택된 테마
+    const [isSearchOpen, setIsSearchOpen] = useState(false); // 검색창 열림 상태
+
+    // 테마 목록
+    const themes = [
+        "제로월드 홍대점", "지구별방탈출 홍대어드벤처점", "지구별방탈출 홍대라스트시티점",
+        "솔버 건대1호점", "솔버 건대2호점", "제로월드 강남점"
+    ];
+
+    // 검색 필터링
+    const filteredThemes = themes.filter((theme) =>
+        theme.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+
     // 탈출 여부 버튼 클릭 핸들러
     const handleOutcomeClick = (outcome) => {
         setSelectedOutcome(outcome); // 단일 선택 (토글X)
@@ -55,9 +71,63 @@ function Review() {
 
     return (
         <div className="flex justify-center items-center h-full">
-            <div className="bg-white p-8 rounded-lg w-[450px]">
+            <div className="bg-white p-2 rounded-lg w-[450px]">
                 <h2 className="text-2xl font-bold text-center mb-6">리뷰작성</h2>
                 
+                {/* 체험테마 */}
+                <div className="flex justify-center w-full">
+                    <div className="flex items-center gap-4 mb-7">
+                        <label className="text-gray-700 font-medium whitespace-nowrap">체험테마</label>
+                        <div className="relative w-full max-w-[250px]">
+                            {/* 검색 입력창 */}
+                            <input
+                                type="text"
+                                value={searchQuery}
+                                placeholder="테마 검색"
+                                className="border border-gray-300 p-2 rounded-[5px] w-full text-center pr-10 cursor-pointer"
+                                onChange={(e) => {
+                                    setSearchQuery(e.target.value);
+                                    setIsSearchOpen(true); // 검색 중이면 드롭다운 유지
+                                }}
+                                onFocus={() => setIsSearchOpen(true)} // 포커스 시 드롭다운 열기
+                            />
+                            <button 
+                                type="button"
+                                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500"
+                                onClick={() => setIsSearchOpen(true)}
+                            >
+                                <IoIosSearch size={20}/>
+                            </button>
+
+                            {/* 검색 드롭다운 */}
+                            {isSearchOpen && (
+                                <div className="absolute top-12 left-0 z-50 bg-white border border-gray-300 rounded-lg w-full shadow-lg">
+                                    <div className="max-h-40 overflow-y-auto">
+                                        {filteredThemes.length > 0 ? (
+                                            filteredThemes.map((theme, index) => (
+                                                <div
+                                                    key={index}
+                                                    className="p-2 cursor-pointer hover:bg-gray-100"
+                                                    onClick={() => {
+                                                        setSelectedTheme(theme);
+                                                        setSearchQuery(theme); // 입력창에 선택한 테마 적용
+                                                        setIsSearchOpen(false); // 드롭다운 닫기
+                                                    }}
+                                                >
+                                                    {theme}
+                                                </div>
+                                            ))
+                                        ) : (
+                                            <p className="p-2 text-center text-gray-500">검색 결과 없음</p>
+                                        )}
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    </div>
+                </div>
+
+
                 {/* 별점 선택 UI */}
                 <div className="flex justify-center mb-3 gap-2">
                     {[1, 2, 3, 4, 5].map((star) => (
