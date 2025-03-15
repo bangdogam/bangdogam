@@ -9,6 +9,9 @@ import Signup from './components/Signup';
 import Review from './components/Review';
 import Ranking from './components/Ranking';
 import Theme from './components/Theme';
+import Mypage from './components/Mypage';
+import Likelist from './components/Likelist';
+
 function App() {
   return (
     <Router>
@@ -23,6 +26,8 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/review" element={<Review />} />
+          <Route path="/mypage" element={<Mypage />} />
+          <Route path="/likelist" element={<Likelist />} />
         </Routes>
         <Footer>
         </Footer>
