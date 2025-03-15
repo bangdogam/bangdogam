@@ -19,8 +19,8 @@ function Header() {
                     <img src={MainIcon} alt="Home" />
                 </Link>
                 <div>
-                    <Link to="/rooms">랭킹</Link>
-                    <Link to="/rooms">테마별</Link>
+                    <Link to="/ranking">랭킹</Link>
+                    <Link to="/theme">테마별</Link>
                     <Link to="/map">지도 보기</Link>
                     <input
                         type="text"
