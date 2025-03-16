@@ -14,10 +14,10 @@ def get_ranking_data(request, branch=None):  # ✅ `branch=None`으로 기본값
 
     with connections["bang_db"].cursor() as cursor:
         if branch_korean == "all":
-            query = "SELECT * FROM bang"
+            query = "SELECT * FROM bang ORDER BY rating DESC"
             cursor.execute(query)
         else:
-            query = "SELECT * FROM bang WHERE branch LIKE :branch"
+            query = "SELECT * FROM bang WHERE branch LIKE :branch ORDER BY rating DESC"
             cursor.execute(query, {"branch": f"%{branch_korean}%"})
 
         columns = [col[0] for col in cursor.description]

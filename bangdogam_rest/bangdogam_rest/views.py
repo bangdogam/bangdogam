@@ -1,5 +1,6 @@
 from django.http import JsonResponse
 from django.db import connections
+from django.middleware.csrf import get_token
 
 def search_data(request):
     """ 방탈출 테마 제목(title)으로 검색하는 API """
@@ -18,3 +19,6 @@ def search_data(request):
     data = [dict(zip(columns, row)) for row in rows]
 
     return JsonResponse(data, safe=False)
+
+def csrf_token_view(request):
+    return JsonResponse({"csrfToken": get_token(request)})
