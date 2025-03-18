@@ -41,7 +41,7 @@ SECRET_KEY = "django-insecure-w=dq+l2c+s^_)s3x%d&h89mkjpfsszg8#$xuqy-t%m3u41g(%m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 
 
 # Application definition
@@ -61,6 +61,7 @@ INSTALLED_APPS = [
     'information',
     'naver_blog_search',
     'kakao_login',
+    "review",
 ]
 
 MIDDLEWARE = [
@@ -72,7 +73,6 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
 ]
 
@@ -178,7 +178,14 @@ CORS_ALLOW_CREDENTIALS = True
 # DRF 및 JWT 설정
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
-        "rest_framework_simplejwt.authentication.JWTAuthentication",
+        "rest_framework.authentication.SessionAuthentication",  # ✅ Django 기본 세션 인증 추가
+        "rest_framework_simplejwt.authentication.JWTAuthentication",  # ✅ JWT 인증 추가
     ),
 }
+
+# 세션 관련 설정 (로그인 유지)
+SESSION_ENGINE = "django.contrib.sessions.backends.db"  # ✅ DB에 세션 저장
+SESSION_COOKIE_SECURE = False  # ✅ 개발 환경에서는 False (HTTPS 필요 없음)
+SESSION_COOKIE_HTTPONLY = True  # ✅ 자바스크립트에서 접근 불가 (보안 강화)
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False  # ✅ 브라우저를 닫아도 세션 유지
 
